@@ -1,0 +1,49 @@
+    body {
+      background-color: #f6f9fd;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    table {
+      margin: 0 auto;
+      /* para centrar la tabla en el centro de la página */
+      border-collapse: collapse;
+    }
+
+    td {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid #d9d9d9;
+      background-color: #fff;
+    }
+
+    .cell {
+      font-size: 48px;
+      font-weight: bold;
+      color: #6a737d;
+    }
+
+    #tableScore {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: larger;
+    }
+
+    #tableBox {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
