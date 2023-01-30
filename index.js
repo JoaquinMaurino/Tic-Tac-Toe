@@ -30,6 +30,7 @@ const winningCombinations = [
       if (cell1 === cell2 && cell2 === cell3 && cell1 !== "") {
         changeBackgroundColor(combination[0], combination[1], combination[2]);
         let tableScore = document.getElementById('tableScore')
+        tableScore.innerHTML = ""
         tableScore.innerHTML += `${cell1} es el ganador!`
       }
     }
